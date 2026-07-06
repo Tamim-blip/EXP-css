@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        header h3{
+            padding: 10px 10px;
+        }
+        table{
+            border-collapse: collapse;
+          
+        }
+        td, th{
+            border:2px solid black;
+            padding: 10px 20px;
+            
+          
+        }
+
+        th{
+            background-color: rgb(235, 186, 127);
+        }
+        tr{
+              justify-content: center;
+            align-items: center;
+        }
+        tfoot td{
+            text-align: right;
+            font-size: 0.5rem;
+        }
+    </style>
+</head>
+<body> 
+    <header>
+        <h3>Education</h3>
+    </header>
+    <table>
+        <caption>My Education</caption>
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Exam</th>
+        <th>Gread</th>
+        <th>Year</th>
+        </tr>
+
+    </thead>
+  
+     <tbody>
+        <tr>
+            <td>Tamim Islam</td>
+            <td>PSC</td>
+            <td>4.33</td>
+            <td>2017</td>
+        </tr>
+        <tr>
+            <td>Tamim Islam</td>
+            <td>SSC</td>
+            <td>4.61</td>
+            <td>2013</td>
+        </tr>
+        <tr>
+            <td>Tamim Islam</td>
+            <td>HSC</td>
+            <td>3.33</td>
+            <td>2025</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+           <td colspan="4">by tamim islam</td>
+        </tr>
+    </tfoot>
+   </table>
+</body>
+</html>
