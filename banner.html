@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hero banner</title>
+    <link rel="stylesheet" href="style/css.css">
+    <link rel="stylesheet" href="style/banner.css">
+    <style>
+        body{
+    background-color: rgb(243, 197, 136);
+    max-width: 1280px;
+    
+    margin: 0 auto;
+}
+.form{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+         <nav>
+        <ul>
+            <li><a href="css.html">Home</a></li>
+            <li><a href="emmet.html">Emmet</a></li>
+            <li><a href="exp.html">exp</a></li>
+            <li><a href="flax.html">Flex</a></li>
+            <li><a href="banner.html"> banner</a></li>
+        </ul>
+
+    </header>
+    <main>
+         
+        <section class="hero">
+         <div class="banner-contain">
+                <h3>Mega offer going on</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni corporis quae laboriosam, voluptas aliquid id omnis et perferendis corrupti saepe delectus sed quam aliquam necessitatibus vel distinctio aut, eum illum? Ea alias placeat quis corrupti laboriosam est itaque quos ipsa, tempore vero sunt accusamus id molestias exercitationem modi similique rerum, nesciunt labore dicta excepturi quasi praesentium? At explicabo harum rerum.</p>
+    <button>buy now!</button>
+         </div>
+   <div class="banner-picture-containner">
+     <img src="banner.jpg" >
+   </div>
+
+        </section>
+        <section>
+            <div id="login">
+                <h2>Give us the information</h2>
+               
+                       <form action="login.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" id="email" name="email" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" placeholder="Enter your address" id="address" name="address" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" placeholder="Enter your phone number" id="phone" name="phone" required><br>
+        <h3>Payment Method:</h3>
+        <label>
+            <input type="radio" name="payment Method" value="Bikash" required> Bikash
+        </label>
+        <label>
+            <input type="radio" name="payment Method" value="Nagad" required> Nagad
+        </label>
+
+        <label>
+            <input type="radio" name="payment Method" value="Cash on Delivery" required> Cash on Delivery
+        </label><br>
+        <h2>Add your note</h2><br>
+        <textarea cols="50" rows="4" name="message" placeholder="Drop your message here"></textarea><br>
+        <input  type="submit" value="Submit" onclick="window.location.href='confurm.html'">
+    </form>
+               
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
